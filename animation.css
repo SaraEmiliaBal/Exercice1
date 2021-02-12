@@ -1,13 +1,3 @@
-/*.animation div{
-    //transform: translateY(100px);
-    animation: anim-entete 1s forwards;
-}*/
-/*@keyframes anim-entete{
-    
-    0%{transform: translateY(100px);}
-    //50%{transform: translateY();}
-    100%{transform: translateY(0);}
-}*/
 /* -------------------------
 Animation de la section principale
 ----------------------------*/
