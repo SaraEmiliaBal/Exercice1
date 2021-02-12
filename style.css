@@ -264,9 +264,10 @@ section .animation {
   color: #2F4F4F;
 }
 
-/*.menu{
-    //padding-left: 20px;
-}*/
+.menu {
+  padding-left: 20px;
+}
+
 .grille {
   display: -ms-grid;
   display: grid;
