@@ -1,0 +1,59 @@
+/*.animation div{
+    //transform: translateY(100px);
+    animation: anim-entete 1s forwards;
+}*/
+
+/*@keyframes anim-entete{
+    
+    0%{transform: translateY(100px);}
+    //50%{transform: translateY();}
+    100%{transform: translateY(0);}
+}*/
+
+//section .un{
+    //animation: anim-un 1s forwards;
+    //transform: translateY(100px);
+//}
+
+//@keyframes anim-un{
+    //0%{transform: translateY(100px);}
+    //100%{transform: translateY(0);}
+//}
+
+/* -------------------------
+Animation de la section principale
+----------------------------*/
+
+
+
+$nbmot: 5;
+@for $i from 1 through $nbmot {
+    .principal h3:nth-of-type(#{$i}){
+        animation: anim-#{$i} 1s both .5*$i#{s};
+    }
+}
+
+@keyframes anim-1{
+    0%{transform: translateY(-500px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes anim-2{
+    0%{transform: scale(0);}
+    100%{transform: scale(1);}
+}
+
+@keyframes anim-3{
+    0%{transform: translateX(-500px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes anim-4{
+    0%{transform: translateY(300px);}
+    100%{transform: translateY(0);}
+}
+
+@keyframes anim-5{
+    0%{transform: scale(3);}
+    100%{transform: scale(1);}
+}

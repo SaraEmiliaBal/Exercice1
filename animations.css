@@ -1,0 +1,27 @@
+.animation div {
+  -webkit-animation: anim-entete 1s forwards;
+          animation: anim-entete 1s forwards;
+}
+
+@-webkit-keyframes anim-entete {
+  0% {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes anim-entete {
+  0% {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+/*# sourceMappingURL=animations.css.map */
