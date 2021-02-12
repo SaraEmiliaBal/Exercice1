@@ -7,16 +7,6 @@ mixins
 /* ---------------------------------------
 layout
 ------------------------------------------ */
-/*.animation div{
-    //transform: translateY(100px);
-    animation: anim-entete 1s forwards;
-}*/
-/*@keyframes anim-entete{
-    
-    0%{transform: translateY(100px);}
-    //50%{transform: translateY();}
-    100%{transform: translateY(0);}
-}*/
 /* -------------------------
 Animation de la section principale
 ----------------------------*/
@@ -247,9 +237,10 @@ p {
   height: 100px;
 }
 
-/*header h1{
-    //padding-left: 20px;
-}*/
+header h1 {
+  padding-left: 20px;
+}
+
 section .animation {
   display: -webkit-box;
   display: -ms-flexbox;
