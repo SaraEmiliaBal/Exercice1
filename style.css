@@ -261,6 +261,8 @@ section .animation {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   color: #2F4F4F;
 }
 
